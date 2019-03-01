@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "mosca": "^2.8.3",
+    "mqtt": "^2.18.8"
+  },
+  "scripts": {
+    "start": "node broker.js & node pubber.js & node subber.js"
+  }
+}
